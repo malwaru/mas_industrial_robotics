@@ -15,8 +15,7 @@ find_package(catkin REQUIRED
 )
 
 add_compile_options(-std=c++11
-  -O3
-  -march=native
+  -O3  
 )
 
 catkin_package()
